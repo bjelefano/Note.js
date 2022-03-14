@@ -1,0 +1,22 @@
+{
+  "name": "Note.js",
+  "version": "1.0.0",
+  "description": "Dynamic Music Staff Generator",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/csc309-fall-2020/js-library-elefanob.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/csc309-fall-2020/js-library-elefanob/issues"
+  },
+  "homepage": "https://github.com/csc309-fall-2020/js-library-elefanob#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}

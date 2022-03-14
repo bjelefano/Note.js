@@ -1,0 +1,81 @@
+html, body {
+    margin: 0;
+    height: 100%;
+}
+
+#target {
+    background-color: inherit;
+}
+
+.fill {
+    height: 100%;
+    width: 100%;
+}
+.bg {
+    background: url("/images/background.jpeg");
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+
+#header {
+    text-align: center;
+}
+
+.middlePanel {
+    position: fixed;
+    background-color: #E9ECEF;
+    border: 1px solid black;
+    border-radius: 5px;
+    padding: 5%;
+    top: 20%;
+    left: 10%;
+    width: 70%;
+    height: 40%;
+}
+
+.buttonContainer{
+    text-align: center;
+}
+
+.btnExample {
+    color: #ffffff;
+    background-color: #343a40;
+    border-color: #343a40;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    user-select: none;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    text-decoration:none;
+}
+
+.active.nav-link.text-white{
+    color: black !important;
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+    color: white !important;
+    background-color: #5A6268 !important;
+}
+
+.table.bg-secondary {
+    background-color: #C3C3C3 !important;
+    border-radius: 5px;
+}
+
+.sample {
+    background-color: #C3C3C3 !important;
+    padding: 2%;
+    border-radius: 5px;
+}
+.landing {
+    height:60%;
+}
